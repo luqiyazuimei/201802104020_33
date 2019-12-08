@@ -1,0 +1,4 @@
+rootProject.name = 'JW_201802104020_33'
+include 'web'
+include 'web'
+
