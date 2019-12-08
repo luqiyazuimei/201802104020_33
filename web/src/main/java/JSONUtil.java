@@ -17,7 +17,7 @@ public class JSONUtil {
         BufferedReader streamReader =
                 new BufferedReader(requestStreamReader);
 
-        //初始化params_json，以便保存JSON格式的请求参数
+        //初始化params_json，以便保存JSON格式的请求参数.
         StringBuilder params_json = new StringBuilder();
         String line;
         while ((line = streamReader.readLine()) != null){
